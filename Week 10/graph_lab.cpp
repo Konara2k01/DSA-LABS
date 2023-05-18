@@ -39,7 +39,7 @@ struct Graph{
         }
     }
 
-    void addEdgeUni(int from, int to){
+    void addEdgeUn(int from, int to){
         //select node from and push to into from neighbour
         nodes[from-1].neighbours.push_back(to);
     }
